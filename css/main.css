@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(..//img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: #4CAF50; /* Цвет фона заголовка */
+    color: white; /* Цвет текста */
+    opacity: 0.8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Размещаем кнопки в одну строку */
+    margin: 0 20px; /* Отступы между кнопками */
+}
+
+.nav-button {
+    background: rgb(179, 189, 178); /* Цвет фона кнопок */
+    color: #4CAF50; /* Цвет текста кнопок */
+    border: none; /* Убираем рамку */
+    padding: 10px 15px; /* Отступы внутри кнопок */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background 0.3s; /* Плавный переход фона */
+    display: block;
+    padding: 5px 10px;
+    font-weight: bold; 
+    float:left; 
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+.nav-button:hover {
+    background: hsl(133, 81%, 55%); /* Цвет фона при наведении */
+}
+
+.section {
+    display: none; /* Скрываем все секции по умолчанию */
+    padding: 20px; /* Отступы внутри секций */
+}
+
+.section.active {
+    display: block; /* Показываем только активную секцию */
+}
+
+.about {
+    color: black;
+    background: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.contact {
+    color: black;
+    background: white;
+    opacity: 0.8;
+    border-radius: 5px;
+
+}
+
+.project {
+    margin-bottom: 20px; /* Отступы между проектами */
+    color: black;
+    background: #f1f1f1;
+    opacity: 0.8;
+    border: 1px solid #4CAF50; /* Рамка вокруг проекта */
+    padding: 15px; /* Отступы внутри проекта */
+    border-radius: 5px; /* Закругление углов рамки */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4CAF50; /* Цвет фона подвала */
+    color: white; /* Цвет текста подвала */
+    opacity: 0.8;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
