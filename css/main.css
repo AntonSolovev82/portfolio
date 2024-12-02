@@ -22,6 +22,7 @@ nav ul {
     padding: 0;
 }
 
+
 nav ul li {
     display: inline; /* Размещаем кнопки в одну строку */
     margin: 0 20px; /* Отступы между кнопками */
@@ -34,7 +35,7 @@ nav ul li {
     padding: 10px 15px; /* Отступы внутри кнопок */
     cursor: pointer; /* Курсор при наведении */
     transition: background 0.3s; /* Плавный переход фона */
-    display: block;
+    display: inline;
     padding: 5px 10px;
     font-weight: bold; 
     float:left; 
@@ -56,13 +57,6 @@ nav ul li {
     display: block; /* Показываем только активную секцию */
 }
 
-.about {
-    color: black;
-    background: white;
-    opacity: 0.8;
-    border-radius: 5px;
-    padding: 20px;
-}
 
 .contact {
     color: black;
@@ -83,6 +77,18 @@ nav ul li {
 }
 
 
+.about {
+    margin-bottom: 20px; /* Отступы между проектами */
+    color: black;
+
+    background: #f1f1f1;
+    opacity: 0.8;
+    border: 1px solid #4CAF50; /* Рамка вокруг проекта */
+    padding: 15px; /* Отступы внутри проекта */
+    border-radius: 5px; /* Закругление углов рамки */
+}
+
+
 
 footer {
     text-align: center;
@@ -93,4 +99,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+div ul li{
+    display: inline;
+    padding: 15px 15px;
+    position:relative;
+
 }
